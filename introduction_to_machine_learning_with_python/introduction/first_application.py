@@ -8,6 +8,7 @@
 ################################################################################
 
 
+
 # import
 
 import numpy as np 
@@ -43,5 +44,23 @@ print(iris.keys())
 print(iris['target_names'])
 
 
+
 # The data itself is contained in the target : 
 print(type(iris['data']))
+
+
+
+print(iris['data'].shape)
+
+
+
+# Here are the feature values for the first five samples:
+print(iris['data'][:5])
+
+
+
+# The target array contains the species
+type(iris['target'])
+
+
+
